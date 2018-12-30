@@ -11,7 +11,7 @@ import { BeerModalPage } from './beer-modal';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+@IonicPage({ name: 'BeerPage'})
 @Component({
   selector: 'page-beer',
   templateUrl: 'beer.html',
